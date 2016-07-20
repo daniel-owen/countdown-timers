@@ -1,0 +1,79 @@
+body{
+	background-color: #00ECB9;
+}
+
+h1{
+	color: #396;
+	margin: 20px 0px;
+	text-align: center;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+
+#countdown-timer-1, #countdown-timer-2, #countdown-timer-3{
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+/* target all divs 1 layer deep in countdown-timer-1 and countdown-timer-2*/
+#countdown-timer-1 > div, #countdown-timer-2 > div{
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #00BF96;
+	display: inline-block;
+}
+
+span{
+	padding: 15px;
+	border-radius: 3px;
+	background-color: #00816A;
+	display: inline-block;
+	font-size: 28px;
+}
+
+.small-text{
+	font-size: 20px;
+}
+
+button{
+	text-align: center;
+	height: 30px;
+	font-size: 20px;
+	border-radius: 3px;
+	background-color: #3775DD;
+}
+
+#button-container{
+	text-align: center;
+	padding: 5px;
+}
+
+h2{
+	color: red;
+	margin: 20px 0px;
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+#custom-input-wrapper{
+	padding: 10px;
+	margin-top: 30px;
+}
+
+#custom-form{
+	font-family: sans-serif;
+	text-align: center;
+}
+
+#custom-form > div{
+	padding: 0px 20px;
+}
+
+input{
+	box-sizing: border-box;
+	height: 25px;
+	width: 175px;
+	font-size: 16px;
+}

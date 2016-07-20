@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title id="title">Countdown to Rio - 2016 Olympics</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<div id="button-container">
+		<button type="button" id="select-button">Show Election Countdown</button>
+	</div>
+
+	<div id="button-container">
+		<button type="button" id="pause-button">Pause</button>
+	</div>
+
+	<!-- wrapper for countown timer #1 -->
+	<div id="countdown-timer-1">
+	<h1>Countdown to Rio!</h1>
+		<div class="weeks">
+			<span class="weeks-number">0</span>
+			<div class ="small-text">Weeks</div>
+		</div>
+
+		<div class="days">
+			<span class="days-number">0</span>
+			<div class ="small-text">Days</div>			
+		</div>
+
+		<div class="hours">
+			<span class="hours-number">0</span>
+			<div class ="small-text">Hours</div>			
+		</div>
+
+		<div class="mins">
+			<span class="mins-number">0</span>
+			<div class ="small-text">Minutes</div>			
+		</div>
+
+		<div class="seconds">
+			<span class="seconds-number">0</span>
+			<div class ="small-text">Seconds</div>			
+		</div>
+	</div>
+
+	<!-- wrapper for countown timer #2 -->
+	<div id="countdown-timer-2">
+		<h1>Countdown to Election Day!</h1>
+		<div class="weeks">
+			<span class="weeks-number">0</span>
+			<div class ="small-text">Weeks</div>
+		</div>
+
+		<div class="days">
+			<span class="days-number">0</span>
+			<div class ="small-text">Days</div>	
+		</div>
+
+		<div class="hours">
+			<span class="hours-number">0</span>
+			<div class ="small-text">Hours</div>			
+		</div>
+
+		<div class="mins">
+			<span class="mins-number">0</span>
+			<div class ="small-text">Minutes</div>			
+		</div>
+
+		<div class="seconds">
+			<span class="seconds-number">0</span>
+			<div class ="small-text">Seconds</div>			
+		</div>
+	</div>
+
+	<!-- wrapper for countown timer #3 (custom) -->
+	<div id="countdown-timer-3">
+		<h1>Custom Text</h1>
+		<div class="weeks">
+			<span class="weeks-number">0</span>
+			<div class ="small-text">Weeks</div>
+		</div>
+
+		<div class="days">
+			<span class="days-number">0</span>
+			<div class ="small-text">Days</div>	
+		</div>
+
+		<div class="hours">
+			<span class="hours-number">0</span>
+			<div class ="small-text">Hours</div>			
+		</div>
+
+		<div class="mins">
+			<span class="mins-number">0</span>
+			<div class ="small-text">Minutes</div>			
+		</div>
+
+		<div class="seconds">
+			<span class="seconds-number">0</span>
+			<div class ="small-text">Seconds</div>			
+		</div>
+	</div>
+
+	<!-- wrapper for custom countdown timer inputs -->
+	<div id="custom-input-wrapper">
+	<h2>Create Your Own!</h2>
+		<form id="custom-form">
+			<div>
+				Choose a Date<br>
+				<input type="date" name="custom-date" id="custDate"/>
+			</div>
+			<br>
+			<div>
+				Choose a Title<br>
+				<input type="text" name="custom-title" id="custTitle"/>
+			</div>
+			<br>
+			<!-- create image input here -->
+			<div>
+				<input type="submit" value="Submit"/>
+			</div>
+		</form>
+
+	</div>
+
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
